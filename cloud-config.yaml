@@ -9,6 +9,6 @@ systemd:
       enabled: true
 runcmd:
   - rm -rf /var/www/html/
-  - git clone https://github.com/DevIDEVerdino/Prova_html.git /var/www/html/
+  - git clone https://github.com/giuliabota/plutoaws.git /var/www/html/
   - chmod -R 755 /var/www/html/
   - nginx -s reload
